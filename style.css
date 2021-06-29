@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&family=Noto+Serif+KR:wght@500;900&display=swap');
+
+html {font-size:10px; cursor: url(cursor.png), auto}
+
+body{
+    background-color: #e2e2e2;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 500, 700, 900;
+    font-size: 1rem;
+    margin: 0px;
+}
+
+.row{
+    width: 1060px;
+    display: flex;
+    margin: auto;
+}
+
+.text-align-center{text-align: center;}
+
+.justy{justify-content: center;}
+
+.col-1{
+    width: 8.33%;
+    padding: 10px 10px;
+}
+.col-2{    
+    width: 16.67%;
+    padding: 20px 10px;
+}
+.col-25{
+    width: 16.67;
+    padding: 20px 10px 0px 0px
+}
+.col-3{
+    width: 24.99%;
+    padding: 10px 10px;
+}
+.col-4{
+    width: 33.32%;
+    padding: 10px 10px;
+}
+.col-5{
+    width: 41.65%;
+    padding: 10px 10px;
+}
+.col-6{
+    width: 49.98%;
+    padding: 10px 10px;
+}
+.col-7{
+    width: 58.31%;
+    padding: 10px 10px;
+}
+.col-8{
+    width: 66.64%;
+    padding: 10px 10px;
+}
+.col-9{
+    width: 83.3%;
+    padding: 10px 10px;
+}
+.col-10{
+    width: 91.63%;
+    padding: 10px 10px;
+}
+.col-11{
+    width: 91.63%;
+    padding: 10px 10px;
+}
+.col-12{
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.h-200{ height: 200px;}
+.h-300{ height: 300px;}
+.h-400{ height: 400px;}
+.h-500{ height: 500px;}
+.h-600{ height: 600px;}
+.h-700{ height: 700px;}
+
+
+
+#headerLine{
+    border-width: 3px;
+    border-color: rgb(102, 102, 102);
+    border-style: solid;
+    width: 100%;
+}
+#introBar{
+    margin-top: 100px;
+}
+#title{
+    font-size: 2.2rem;
+    line-height: 3.6rem;
+    color: #666666;
+}
+#menus{
+    margin-top: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+#about{
+    font-family: Noto Sans;
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #666666;
+}
+#about2{
+    font-family: Noto Sans;
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #ff9000;
+}
+#intro{
+    margin-bottom: 100px;
+    border-top: 3px solid rgb(102, 102, 102);
+    width: 100%;
+}
+
+
+
+#maintextBox{
+    margin-top: 80px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.mainpoemTitle{
+    width: 480px;
+    position: absolute;
+    font-weight: 900;
+    margin-top: 80px;
+    padding-left: 50px;
+}
+.mainpoemTitle2{
+    width: 480px;
+    position: absolute;
+    font-weight: 900;
+    text-align: right;
+    margin-top: 80px;
+    margin-left: 530px;
+    padding-right: 50px;
+}
+.mainpoemTitle3{
+    justify-self: center;
+    position: absolute;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 125px;
+    margin-left: 530px;
+    padding-right: 50px;
+}
+.mainpoemText1{
+    width: 480px;
+    position: absolute;
+    margin-top: 150px;
+    padding-left: 50px;
+}
+.mainpoemText2{
+    width: 480px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 530px;
+    padding-right: 50px;
+    text-align: right;
+}
+.mainpoemText3{
+    width: 215px;
+    position: absolute;
+    margin-top: 300px;
+    padding-left: 50px;
+}
+.mainpoemText4{
+    width: 265px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 265px;
+    text-align: center;
+}
+.mainpoemText5{
+    width: 265px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 530px;
+    text-align: center;
+}
+.mainpoemText6{
+    width: 215px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 795px;
+    padding-right: 50px;
+    text-align: right;
+}
+#block{
+    margin-top: -10px;
+}
+
+
+
+#poem1{
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+#poem2{
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+#poem3{
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+#poemTitle{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: black;
+    margin: auto;
+}
+#poemText{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: #666666;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin: auto;
+}
+
+
+
+#textBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: #666666;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+#imgBox{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#last{
+    margin-top: 250px;
+    border-top: 3px solid rgb(102, 102, 102);
+    width: 100%;
+}
+#lasty{
+    margin-top: 100px;
+    font-family: Noto Sans;
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #666666;
+}
+
+
+
+#slider{
+    display: flex;
+    margin-bottom: 160px;
+}
+#imageContainer{
+    width: 1060px;
+    height: 600px;
+    overflow: hidden;
+}
+#imageSlider{
+    width: 3180px;
+    display: flex;
+    transition: transform 1.5s;
+}
+#interface{
+    width: 1060px;
+    height: 600px;
+    position: absolute;
+}
+#leftArrowA{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#leftArrowA button{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#leftArrowA button:hover{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#rightArrowA{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#rightArrowA button{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#rightArrowA button:hover{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#buttonBtn{
+    width: 240px;
+    height: 1060px;
+    justify-content: space-between;
+    align-items: center;
+}
+#buttonBtn button{
+    padding: 4px 4px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#buttonBtn button:hover{
+    padding: 4px 4px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+#slider2{
+    display: flex;
+    margin-bottom: 160px;
+}
+#imageContainer2{
+    width: 1060px;
+    height: 600px;
+    overflow: hidden;
+}
+#imageSlider2{
+    width: 3180px;
+    display: flex;
+    transition: transform 1.5s;
+}
+#interface2{
+    width: 1060px;
+    height: 600px;
+    position: absolute;
+}
+#leftArrowB{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#leftArrowB button{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#leftArrowB button:hover{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#rightArrowB{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#rightArrowB button{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#rightArrowB button:hover{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#buttonBtn2{
+    width: 240px;
+    height: 1060px;
+    justify-content: space-between;
+    align-items: center;
+}
+#buttonBtn2 button{
+    padding: 4px 4px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#buttonBtn2 button:hover{
+    padding: 4px 4px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+#slider3{
+    display: flex;
+    margin-bottom: 160px;
+}
+#imageContainer3{
+    width: 1060px;
+    height: 600px;
+    overflow: hidden;
+}
+#imageSlider3{
+    width: 4240px;
+    display: flex;
+    transition: transform 1.5s;
+}
+#interface3{
+    width: 1060px;
+    height: 600px;
+    position: absolute;
+}
+#leftArrowC{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#leftArrowC button{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#leftArrowC button:hover{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#rightArrowC{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#rightArrowC button{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#rightArrowC button:hover{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#buttonBtn3{
+    width: 320px;
+    height: 1060px;
+    justify-content: space-between;
+    align-items: center;
+}
+#buttonBtn3 button{
+    padding: 4px 4px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#buttonBtn3 button:hover{
+    padding: 4px 4px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+#slider4{
+    display: flex;
+    margin-bottom: 160px;
+}
+#imageContainer4{
+    width: 1060px;
+    height: 600px;
+    overflow: hidden;
+}
+#imageSlider4{
+    width: 4240px;
+    display: flex;
+    transition: transform 1.5s;
+}
+#interface4{
+    width: 1060px;
+    height: 600px;
+    position: absolute;
+}
+#leftArrowD{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#leftArrowD button{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#leftArrowD button:hover{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#rightArrowD{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#rightArrowD button{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#rightArrowD button:hover{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#buttonBtn4{
+    width: 240px;
+    height: 1060px;
+    justify-content: space-between;
+    align-items: center;
+}
+#buttonBtn4 button{
+    padding: 4px 4px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#buttonBtn4 button:hover{
+    padding: 4px 4px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+#slider5{
+    display: flex;
+    margin-bottom: 160px;
+}
+#imageContainer5{
+    width: 1060px;
+    height: 600px;
+    overflow: hidden;
+}
+#imageSlider5{
+    width: 4240px;
+    display: flex;
+    transition: transform 1.5s;
+}
+#interface5{
+    width: 1060px;
+    height: 600px;
+    position: absolute;
+}
+#leftArrowE{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#leftArrowE button{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#leftArrowE button:hover{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#rightArrowE{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#rightArrowE button{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#rightArrowE button:hover{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#buttonBtn5{
+    width: 160px;
+    height: 1060px;
+    justify-content: space-between;
+    align-items: center;
+}
+#buttonBtn5 button{
+    padding: 4px 4px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#buttonBtn5 button:hover{
+    padding: 4px 4px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+#slider6{
+    display: flex;
+    margin-bottom: 160px;
+}
+#imageContainer6{
+    width: 1060px;
+    height: 600px;
+    overflow: hidden;
+}
+#imageSlider6{
+    width: 4240px;
+    display: flex;
+    transition: transform 1.5s;
+}
+#interface6{
+    width: 1060px;
+    height: 600px;
+    position: absolute;
+}
+#leftArrowF{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#leftArrowF button{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#leftArrowF button:hover{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#rightArrowF{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#rightArrowF button{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#rightArrowF button:hover{
+    padding: 300px 200px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#buttonBtn6{
+    width: 240px;
+    height: 1060px;
+    justify-content: space-between;
+    align-items: center;
+}
+#buttonBtn6 button{
+    padding: 4px 4px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#buttonBtn6 button:hover{
+    padding: 4px 4px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
