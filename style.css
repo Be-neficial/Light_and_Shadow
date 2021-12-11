@@ -83,12 +83,6 @@ body{
 
 
 
-#headerLine{
-    border-width: 3px;
-    border-color: rgb(102, 102, 102);
-    border-style: solid;
-    width: 100%;
-}
 #introBar{
     margin-top: 100px;
 }
